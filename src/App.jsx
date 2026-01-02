@@ -96,7 +96,7 @@ function App() {
               <h2>Congratulations!</h2>
               <p>You are eligible for</p>
               <div className="amount-display">
-                {amountCoin.toLocaleString()} coins
+                {amountCoin.toLocaleString()} coin
               </div>
             </div>
           </div>
