@@ -44,6 +44,8 @@ function App() {
       if (calculatedAmountCoin > 0) {
         setAmountCoin(calculatedAmountCoin);
         setShowPopup(true);
+      } else { 
+        console.log("sorry you are not eligible for this")
       }
 
       // Console log for debugging
@@ -61,10 +63,13 @@ function App() {
 
   return (
     <div className="app-container">
+      <div className="only-for-fun">
+        <h4>Only for fun</h4>
+      </div>
       <div className="app-grid">
         <div className="grid-item header-section">
           <img src={logo} alt="Logo" className="app-logo" />
-          <h1>Welcome our customers</h1>
+          <h1>Welcome Base Fams</h1>
         </div>
 
         <div className="grid-item form-section">

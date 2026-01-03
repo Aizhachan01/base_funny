@@ -172,3 +172,13 @@
   background: #eff6ff;
   border: 2px solid #2563eb;
 }
+
+.only-for-fun {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.5px;
+}
